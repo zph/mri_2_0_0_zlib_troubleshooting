@@ -1,0 +1,490 @@
+HTTP/1.1 200 OK
+Date: Fri, 14 Jun 2013 16:06:18 GMT
+Server: Apache/1.3.42 (Unix) PHP/5.3.2
+Cache-Control: max-age=300
+Expires: Fri, 14 Jun 2013 16:11:18 GMT
+X-CreationTime: 0.120
+Set-Cookie: DT=1371225978:10222:365-e6; path=/; expires=Fri, 01-Jan-2020 00:00:00 GMT; domain=.wunderground.com
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/json; charset=UTF-8
+
+
+{
+	"response": {
+		"version": "0.1"
+		,"termsofService": "http://www.wunderground.com/weather/api/d/terms.html"
+		,"features": {
+		"geolookup": 1
+		,
+		"conditions": 1
+		}
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"IA",
+		"city":"Cedar Rapids",
+		"tz_short":"CDT",
+		"tz_long":"America/Chicago",
+		"lat":"41.97171021",
+		"lon":"-91.65871429",
+		"zip":"52401",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:52401.1.99999",
+		"requesturl":"US/IA/Cedar_Rapids.html",
+		"wuiurl":"http://www.wunderground.com/US/IA/Cedar_Rapids.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Cedar Rapids", "state":"IA", "country":"US", "icao":"KCID", "lat":"41.88000107", "lon":"-91.70999908" },
+		{ "city":"Iowa City", "state":"IA", "country":"US", "icao":"KIOW", "lat":"41.63999939", "lon":"-91.55000305" },
+		{ "city":"Vinton", "state":"IA", "country":"US", "icao":"KVTI", "lat":"42.22000122", "lon":"-92.01999664" },
+		{ "city":"Monticello", "state":"IA", "country":"US", "icao":"KMXO", "lat":"42.22000122", "lon":"-91.16999817" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Czech Village",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACEDAR26",
+		"lat":41.961411,
+		"lon":-91.656120,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Ellis Park Time Check",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACEDAR22",
+		"lat":41.981174,
+		"lon":-91.682632,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Southwest Side",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACEDAR18",
+		"lat":41.961102,
+		"lon":-91.701447,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Indian Hill Rd",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACEDAR28",
+		"lat":42.001289,
+		"lon":-91.617867,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"IADOT Cedar Rapids (US 30)",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"MRCII4",
+		"lat":41.930000,
+		"lon":-91.683800,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"APRSWXNET Cedar Rapids IA US",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"ME0687",
+		"lat":42.031670,
+		"lon":-91.643333,
+		"distance_km":6,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Hiawatha",
+		"city":"Hiawatha",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAHIAWA4",
+		"lat":42.039417,
+		"lon":-91.687881,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Bowman Woods",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACEDAR20",
+		"lat":42.044636,
+		"lon":-91.634048,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"The Howling Wolves",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACEDAR25",
+		"lat":42.053856,
+		"lon":-91.655243,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Deer Valley",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAMARIO13",
+		"lat":42.023415,
+		"lon":-91.567619,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Pheasant Ridge Ct",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAMARIO6",
+		"lat":42.049641,
+		"lon":-91.601463,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Westfield Elementary School",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACEDAR21",
+		"lat":42.062164,
+		"lon":-91.648903,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"IADOT Cedar Rapids (US30)",
+		"city":"Ely",
+		"state":"IA",
+		"country":"US",
+		"id":"MRCRI4",
+		"lat":41.925900,
+		"lon":-91.549896,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"APRSWXNET Marion IA US",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"MD1051",
+		"lat":42.047829,
+		"lon":-91.574173,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"APRSWXNET Marion IA US",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"MAT981",
+		"lat":42.048000,
+		"lon":-91.574501,
+		"distance_km":10,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"English Glen",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAMARIO12",
+		"lat":42.052364,
+		"lon":-91.576118,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAMARIO8",
+		"lat":42.041698,
+		"lon":-91.559654,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"AA Marion",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAMARIO9",
+		"lat":42.047848,
+		"lon":-91.566628,
+		"distance_km":11,
+		"distance_mi":6
+		},
+		{
+		"neighborhood":"Oak Ridge",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAMARIO11",
+		"lat":42.072906,
+		"lon":-91.617607,
+		"distance_km":11,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"APRSWXNET Fairfax IA US",
+		"city":"Fairfax",
+		"state":"IA",
+		"country":"US",
+		"id":"MAT395",
+		"lat":41.918480,
+		"lon":-91.782700,
+		"distance_km":11,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"Berry\u0027s Run",
+		"city":"Marion",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAMARIO14",
+		"lat":42.077976,
+		"lon":-91.597679,
+		"distance_km":12,
+		"distance_mi":7
+		},
+		{
+		"neighborhood":"MesoWest NORWA1 IA US UPR",
+		"city":"Walford",
+		"state":"IA",
+		"country":"US",
+		"id":"MUP152",
+		"lat":41.911381,
+		"lon":-91.874779,
+		"distance_km":19,
+		"distance_mi":11
+		},
+		{
+		"neighborhood":"Whittier",
+		"city":"Springville",
+		"state":"IA",
+		"country":"US",
+		"id":"KIASPRIN1",
+		"lat":42.082436,
+		"lon":-91.461136,
+		"distance_km":20,
+		"distance_mi":12
+		},
+		{
+		"neighborhood":"Lisbon",
+		"city":"Lisbon",
+		"state":"IA",
+		"country":"US",
+		"id":"KIALISBO2",
+		"lat":41.920174,
+		"lon":-91.393059,
+		"distance_km":22,
+		"distance_mi":13
+		},
+		{
+		"neighborhood":"APRSWXNET North Liberty IA US",
+		"city":"North Liberty",
+		"state":"IA",
+		"country":"US",
+		"id":"MD2681",
+		"lat":41.763069,
+		"lon":-91.617393,
+		"distance_km":23,
+		"distance_mi":14
+		},
+		{
+		"neighborhood":"",
+		"city":"Central City",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACENTR2",
+		"lat":42.198334,
+		"lon":-91.654335,
+		"distance_km":25,
+		"distance_mi":15
+		},
+		{
+		"neighborhood":"",
+		"city":"Shellsburg",
+		"state":"IA",
+		"country":"US",
+		"id":"KIASHELL3",
+		"lat":42.086330,
+		"lon":-91.922272,
+		"distance_km":25,
+		"distance_mi":15
+		},
+		{
+		"neighborhood":"HADS IOWA RIVER AT CORALVILLE LAKE (H IA US USARMY-COE",
+		"city":"Iowa City",
+		"state":"IA",
+		"country":"US",
+		"id":"MCRVI4",
+		"lat":41.724720,
+		"lon":-91.527779,
+		"distance_km":29,
+		"distance_mi":17
+		},
+		{
+		"neighborhood":"1/4 mi. N of Coralridge Mall",
+		"city":"Coralville",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACORAL3",
+		"lat":41.696999,
+		"lon":-91.595001,
+		"distance_km":30,
+		"distance_mi":18
+		},
+		{
+		"neighborhood":"Valley View",
+		"city":"Coralville",
+		"state":"IA",
+		"country":"US",
+		"id":"KIACORAL5",
+		"lat":41.692120,
+		"lon":-91.579895,
+		"distance_km":31,
+		"distance_mi":19
+		},
+		{
+		"neighborhood":"Richland Heights Area",
+		"city":"Urbana",
+		"state":"IA",
+		"country":"US",
+		"id":"KIAURBAN2",
+		"lat":42.220665,
+		"lon":-91.882828,
+		"distance_km":33,
+		"distance_mi":19
+		},
+		{
+		"neighborhood":"MesoWest MECHN1 IA US UPR",
+		"city":"Mechanicsville",
+		"state":"IA",
+		"country":"US",
+		"id":"MUP035",
+		"lat":41.902359,
+		"lon":-91.255836,
+		"distance_km":34,
+		"distance_mi":20
+		}
+		]
+		}
+		}
+	}
+		,	"current_observation": {
+		"image": {
+		"url":"http://icons-ak.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Cedar Rapids, IA",
+		"city":"Cedar Rapids",
+		"state":"IA",
+		"state_name":"Iowa",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"52401",
+		"latitude":"41.97171021",
+		"longitude":"-91.65871429",
+		"elevation":"223.00000000"
+		},
+		"observation_location": {
+		"full":"Czech Village, Cedar Rapids, Iowa",
+		"city":"Czech Village, Cedar Rapids",
+		"state":"Iowa",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"41.961411",
+		"longitude":"-91.656120",
+		"elevation":"725 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KIACEDAR26",
+		"observation_time":"Last Updated on June 14, 11:06 AM CDT",
+		"observation_time_rfc822":"Fri, 14 Jun 2013 11:06:06 -0500",
+		"observation_epoch":"1371225966",
+		"local_time_rfc822":"Fri, 14 Jun 2013 11:06:18 -0500",
+		"local_epoch":"1371225978",
+		"local_tz_short":"CDT",
+		"local_tz_long":"America/Chicago",
+		"local_tz_offset":"-0500",
+		"weather":"Clear",
+		"temperature_string":"77.5 F (25.3 C)",
+		"temp_f":77.5,
+		"temp_c":25.3,
+		"relative_humidity":"52%",
+		"wind_string":"From the North at 6.0 MPH Gusting to 6.9 MPH",
+		"wind_dir":"North",
+		"wind_degrees":360,
+		"wind_mph":6.0,
+		"wind_gust_mph":"6.9",
+		"wind_kph":9.7,
+		"wind_gust_kph":"11.1",
+		"pressure_mb":"1018",
+		"pressure_in":"30.07",
+		"pressure_trend":"0",
+		"dewpoint_string":"59 F (15 C)",
+		"dewpoint_f":59,
+		"dewpoint_c":15,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"77.5 F (25.3 C)",
+		"feelslike_f":"77.5",
+		"feelslike_c":"25.3",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"0",
+		"UV":"0.0",
+		"precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons-ak.wxug.com/i/c/k/clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/IA/Cedar_Rapids.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KIACEDAR26",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=41.961411,-91.656120"
+	}
+}
