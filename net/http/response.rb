@@ -348,14 +348,20 @@ class Net::HTTPResponse
       @socket = socket
       # zlib with automatic gzip detection
       @inflate = Zlib::Inflate.new(32 + Zlib::MAX_WBITS)
+      require'pry';binding.pry
     end
 
     ##
     # Finishes the inflate stream.
 
     def finish
-      require'pry';binding.pry
-      @inflate.finish
+      begin
+        @inflate.finish # EXCEPTION THROWN HERE!
+      rescue
+        # No luck with Zlib decompression. Let's try with raw deflate,
+        # like some broken web servers do.
+        Zlib::Inflate.new(-Zlib::MAX_WBITS).finish
+      end
     end
 
     ##
