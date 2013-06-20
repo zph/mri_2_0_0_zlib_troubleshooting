@@ -1,4 +1,5 @@
 # README
+## mri_2_0_0_zlib_troubleshooting
 
 ## The Issue
 
@@ -17,3 +18,5 @@ The interesting piece was when @injekt showed that the [rest-client gem](https:/
 So, for now, if I want to use the Weather Underground API and MRI 2.0.0, I'll be doing it with the rest-client gem.
 
 Additionally interesting reading can be found with this [Ruby core commit](https://github.com/ruby/ruby/commit/3cf7d1b57e3622430065f6a6ce8cbd5548d3d894), where a significant update was made to the Zlib libraries.
+
+Troubleshooting Repo related to https://gist.github.com/geopet/5782836
